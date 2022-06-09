@@ -189,7 +189,7 @@ public class AddActivity extends AppCompatActivity implements AddFragment.DataSe
             fis.close();
 
             if(data1.equals("수두")){
-                if(data2.equals("aa")){
+                if(data2.equals("서울삼성병원")){
                     JSONArray Array = jsonObject.getJSONArray("Varicella");//배열의 이름
 
                         JSONObject Array2 = Array.getJSONObject(0);
@@ -197,7 +197,7 @@ public class AddActivity extends AppCompatActivity implements AddFragment.DataSe
                     for(int j=0;j<Array3.length();j++){
                         //Object2는 emergence 내부
                         JSONObject Object2 = Array3.getJSONObject(j);
-                        if(Object2.getString("hospital_name").equals("aa")){
+                        if(Object2.getString("hospital_name").equals("서울삼성병원")){
                             Object2.put("latitude", data3);
                             Object2.put("longitude", data4);
                             Object2.put("OH", data5);

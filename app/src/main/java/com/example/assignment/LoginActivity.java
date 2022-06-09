@@ -21,16 +21,6 @@ public class LoginActivity extends AppCompatActivity {
         mEditId = (EditText) findViewById(R.id.Id);
         mEditPassword = (EditText) findViewById(R.id.Password);
 
-        if(savedInstanceState == null){
-
-            SharedPreferences prefs = getSharedPreferences("person_info", 0);
-
-            String id = prefs.getString("id", "");
-            String password = prefs.getString("password", "");
-
-            mEditId.setText(id);
-            mEditPassword.setText(password);
-        }
 
 
     }
