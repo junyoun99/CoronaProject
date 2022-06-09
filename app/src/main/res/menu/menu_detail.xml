@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editmenu"
+        android:title="편집 메뉴"
+        />
+    <item
+        android:id="@+id/deletemenu"
+        android:title="삭제 메뉴"
+        />
+    <item
+        android:id="@+id/listcheck"
+        android:title="리스트 확인하기"
+        />
+</menu>

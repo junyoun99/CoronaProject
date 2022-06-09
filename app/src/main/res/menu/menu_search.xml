@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search"
+        android:title="전염병 검색" >
+        <menu>
+            <item
+                android:id="@+id/search01"
+                android:title="수두"/>
+            <item
+                android:id="@+id/search02"
+                android:title="A형 간염"/>
+            <item
+                android:id="@+id/search03"
+                android:title="유행성 이하선염"/>
+            <item
+                android:id="@+id/search04"
+                android:title="C형 간염"/>
+        </menu>
+    </item>
+</menu>
+

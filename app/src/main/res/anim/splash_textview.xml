@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:startOffset="1500">
+    <!--
+    이미지 뷰 애니메이션이 끝나고 나타나게 하기 위해
+    linear_interpolator 설정
+    startOffset : 1500ms (해당 시간 이후에 진행되도록 설정한 것)
+
+    -->
+    <translate
+        android:fromYDelta="100%"
+        android:toYDelta="0%"
+        android:duration="600"/>
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="600"/>
+    <!--
+    0.0 ~ 1.0 : 처음엔 안 보였다가 보여지게 하기 위해해
+   -->
+
+</set>

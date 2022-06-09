@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EBFBFF"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/default_image"
+                android:onClick="OnClick"/>
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="15dp">
+            <EditText
+                android:id="@+id/define"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="전염병 정의"
+                android:ems="10"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/area"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="지역"
+                    android:ems="10" />
+
+                <EditText
+                    android:id="@+id/personnel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="발생인원"
+                    android:inputType="number"
+                    android:ems="10"
+                    />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/hospitalname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="병원명"
+                android:ems="10"
+                />
+
+            <EditText
+                android:id="@+id/hospitallocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="병원위치"
+                android:ems="10"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/latitude"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="위도"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+                <EditText
+                    android:id="@+id/longitude"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="경도"
+                    android:inputType="number"
+                    android:ems="5"/>
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/opentime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="영업시간"
+                android:ems="10"
+                />
+
+            <Button
+                android:id="@+id/Fragment_add_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추가"
+                android:onClick="FragmentAddClick"
+                />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</FrameLayout>

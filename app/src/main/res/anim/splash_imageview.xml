@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/bounce_interpolator">
+    <!--
+    interpolator : 애니메이션 등장 효과 지정
+    bounce_interpolator : 등장 효과 중에서 통통 튀는 속성
+    -->
+
+    <translate
+        android:fromYDelta="-400%"
+        android:toYDelta="0%"
+        android:duration="1500"/>
+
+    <!--
+    -400 부터 0까지 1000ms 동안 지속되도록
+    -->
+
+</set>

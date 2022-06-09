@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_add.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_list_detail.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sdlist.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_view.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_view2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_view3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_view4.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/fragment_a.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/fragment_add.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/fragment_edit.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/menu_admin.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/menu_detail.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/menu/menu_login.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/menu_search.xml" value="0.28229166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
